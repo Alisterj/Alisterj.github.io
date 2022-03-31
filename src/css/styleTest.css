@@ -1,0 +1,21 @@
+p{
+    font-family: Arial, "Courier New";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 800;
+    color: #808080;
+    text-align: justify;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #000;
+    text-transform: none;
+    text-indent: 10px;
+    letter-spacing: 1px; /*Задает значение расстояния между символами*/
+    line-height: 50px; /*Отступы между строками*/
+    white-space: nowrap; /*Задает правило переноса строк*/
+    word-spacing: 10px;
+}
+.example-block{
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 1%;
+}

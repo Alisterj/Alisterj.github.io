@@ -1,0 +1,32 @@
+/*Header*/
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+}
+nav{
+    width: 1100px;
+    height: 60px;
+    margin: 0 auto;
+}
+.menu li,
+.logo{
+    color: #ffffff;
+    float: left;
+    line-height: 60px;
+}
+.logo{
+    font-size: 23px;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    text-transform: uppercase;
+}
+.menu li:not(:last-child){
+    margin-right: 40px;
+}
+.menu li:hover{
+    color: #cf7600;
+}
