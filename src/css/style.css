@@ -36,7 +36,7 @@ nav{
 .main{
     width: 100%;
     height: calc(100% - 60px);
-    background: url("../img/1614262833.png") 25% 100%/auto 25% no-repeat,url("../img/p-geometricheskii-fon-dlya-prezentatsii.jpg") center/cover no-repeat;
+    background: url("../img/1614262833.png") 24% 100%/auto 25% no-repeat,url("../img/p-geometricheskii-fon-dlya-prezentatsii.jpg") center/cover no-repeat;
 }
 .title__container{
     float: left;
@@ -65,4 +65,40 @@ nav{
 }
 .control__btn input:not(:last-child){
     margin-right: 20px;
+}
+/*aboutMe*/
+.aboutMe{
+    width: 714px;
+    margin: 85px auto 99px;
+    text-align: center;
+}
+.title{
+    color: #263244;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.aboutMe>img{
+    margin-top: 60px;
+    width: 200px;
+    border-radius: 50%;
+}
+.aboutMe_info p{
+    text-align: left;
+    margin-top: 24px;
+    color: #3f495a;
+}
+.aboutMe_info p:not(:last-child){
+    margin-bottom: 38px;
+}
+.aboutMe input{
+    margin-top: 34px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 34px;
+    background: url("../img/downloadResume.png") 10px 50% no-repeat;
+}
+/*skills*/
+.skills{
+    width: 1094px;
+    margin: 0 auto;
 }
