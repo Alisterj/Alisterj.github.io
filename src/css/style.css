@@ -32,6 +32,16 @@ nav{
 .menu li:not(:last-child){
     margin-right: 35px;
 }
+/*titles*/
+.title{
+    color: #263244;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", serif;
+}
+
+
 /*Main*/
 .main{
     width: 100%;
@@ -66,14 +76,8 @@ nav{
 .control__btn input:not(:last-child){
     margin-right: 20px;
 }
-/*titles*/
-.title{
-    color: #263244;
-    font-size: 24px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    font-family: "Franklin Gothic Medium", serif;
-}
+
+
 /*aboutMe*/
 .aboutMe{
     width: 714px;
@@ -126,7 +130,54 @@ nav{
 }
 /*cases*/
 .cases{
-    margin: 103px auto;
+    margin: 103px auto 200px;
+    max-width: 1170px;
+}
+.title__cases{
+    margin-bottom: 36px;
     text-align: center;
-    width: 1170px;
+}
+.cases>p{
+    text-align: center;
+}
+.slider{
+    margin: 42px 0;
+}
+.slider img{
+    width: 100%;
+}
+.slider__info{
+    display: flex;
+}
+.info_links{
+    float: left;
+    overflow: hidden;
+    width: 400px;
+}
+.info_links h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #384354;
+    margin-bottom: 15px;
+}
+.info_links p{
+    font-size: 16px;
+    color: #3f495a;
+}
+.client{
+    margin-bottom: 15px;
+}
+.info_links input{
+    padding: 15px 42px;
+    background-color: #63b5ae;
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 22px;
+    font-family: "Franklin Gothic Medium";
+}
+.info_about_project{
+    flex: auto;
 }
