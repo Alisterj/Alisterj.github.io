@@ -103,8 +103,7 @@ nav{
 }
 /*skills*/
 .skills{
-    background: url("../img/skillsFonImg.jpg") no-repeat center;
-    width: 100%;
+    background: url("../img/skillsFonImg.jpg") no-repeat;
     text-align: center;
     padding: 108px 0 92px;
 }
@@ -124,4 +123,10 @@ nav{
 }
 .skills__content p{
     margin-top: 20px;
+}
+/*cases*/
+.cases{
+    margin: 103px auto;
+    text-align: center;
+    width: 1170px;
 }
