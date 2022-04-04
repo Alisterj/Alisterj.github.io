@@ -105,13 +105,23 @@ nav{
 .skills{
     background: url("../img/skillsFonImg.jpg") no-repeat center;
     width: 100%;
-    height: auto;
     text-align: center;
+    padding: 108px 0 92px;
 }
 .skills_wrapper{
     width: 1094px;
-    margin: 108px auto;
+    margin: 0 auto;
 }
 .skills__content ul{
     display: flex;
+}
+.skills__content img{
+    margin-top: 101px;
+}
+.skills__content h4{
+    margin-top: 36px;
+    color: #cf7600;
+}
+.skills__content p{
+    margin-top: 20px;
 }
