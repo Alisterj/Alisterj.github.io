@@ -360,3 +360,13 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
 }
+
+/*map*/
+.map{
+    background: url("../img/map.jpg") center;
+    height: 350px;
+}
+footer{
+    height: 90px;
+    background-color: #354051;
+}
