@@ -225,7 +225,7 @@ nav{
 }
 /*statistics*/
 .statistics{
-    background: rgba(192, 210, 200, 0.45);
+    background: url("../img/fonStat.jpg") fixed;
 }
 .statistics_wrapper{
     max-width: 1025px;
@@ -251,4 +251,112 @@ nav{
 }
 .statistics_wrapper p{
 
+}
+/*reviews*/
+.reviews{
+}
+.reviews_wrapper{
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 105px 40px 90px;
+    text-align: center;
+}
+.title__reviews{
+    margin-bottom: 59px;
+}
+.reviews_slider>img{
+    border-radius: 50%;
+    margin-bottom: 34px;
+}
+.reviews_slider p{
+    color: #243042;
+    margin-bottom: 48px;
+}
+.reviews_slider span{
+    font-weight: bold;
+}
+.reviews_slider p:not(:last-child){
+    margin-bottom: 34px;
+}
+.reviews_slider_button img:not(:last-child){
+    margin-right: 14px;
+}
+
+/*my_contacts*/
+.my_contacts{
+    /*background: url("../img/fonMyContact.jpg");*/
+    background-color: #1c2534;
+}
+.my_contacts_wrapper{
+    max-width: 774px;
+    margin: 0 auto;
+    padding: 104px 20px 67px;
+    text-align: center;
+    color: #ffffff;
+}
+.title__my_contacts h2{
+    color: #ffffff;
+}
+.title__my_contacts{
+    margin-bottom: 32px;
+}
+.my_contacts_wrapper p{
+    margin-bottom: 45px;
+}
+.communication{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.communication img{
+    margin-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+.inputs_form input,
+.inputs_form textarea{
+    background-color: #d3d6dc;
+    border-radius: 10px;
+}
+.inputTextAndEmail{
+    display: flex;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.inputTextAndEmail input:first-child{
+    margin-right: 30px;
+}
+.inputTextAndEmail input{
+    width: 50%;
+    height: 34px;
+    padding: 10px 15px 12px;
+}
+.inputs_form textarea{
+    width: 100%;
+    height: 94px;
+    resize: none;
+    padding: 9px 13px;
+    margin-bottom: 28px;
+}
+.formMessageToMe>input{
+    margin-bottom: 75px;
+    padding: 14px 18px 12px;
+    color: #ffffff;
+    font-size: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    background: none;
+}
+.social_network ul{
+    display: flex;
+    max-width: 420px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
